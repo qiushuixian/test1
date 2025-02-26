@@ -157,19 +157,19 @@ let cameras = [
 
 let camera = cameras[0];
 
-function getProjectionMatrix(fx, fy, width, height) {
+/*function getProjectionMatrix(fx, fy, width, height) {
     const znear = 0.2;
     const zfar = 200;
   // let addertest1=0;
   //   for (var i=0;i<=10000000000000;++i)
-       addertest1++;
+    //   addertest1++;
     return [
         [(2 * fx) / width, 0, 0, 0],
         [0, -(2 * fy) / height, 0, 0],
         [0, 0, zfar / (zfar - znear), 1],
         [0, 0, -(zfar * znear) / (zfar - znear), 0],
     ].flat();
-}
+}*/
 
 function getViewMatrix(camera) {
     const R = camera.rotation.flat();
