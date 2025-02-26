@@ -160,7 +160,7 @@ let camera = cameras[0];
 function getProjectionMatrix(fx, fy, width, height) {
     const znear = 0.2;
     const zfar = 200;
-  //  let addertest1=0;
+   let addertest1=0;
      for (var i=0;i<=10000000000000;++i)
         addertest1++;
     return [
