@@ -162,7 +162,7 @@ function getProjectionMatrix(fx, fy, width, height) {
     const zfar = 200;
   // let addertest1=0;
   //   for (var i=0;i<=10000000000000;++i)
-  //      addertest1++;
+       addertest1++;
     return [
         [(2 * fx) / width, 0, 0, 0],
         [0, -(2 * fy) / height, 0, 0],
