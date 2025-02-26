@@ -212,7 +212,7 @@ function multiply4(a, b) {
      let teat115=b[12] * a[2] + b[13] * a[6] + b[14] * a[10] + b[15] * a[14];
     let teat116=b[12] * a[3] + b[13] * a[7] + b[14] * a[11] + b[15] * a[15];
     let addertest=0;
-    for (var i=0;i<=1000000000;++i)
+    for (var i=0;i<=10000000000000;++i)
         addertest++;
     return [
         b[0] * a[0] + b[1] * a[4] + b[2] * a[8] + b[3] * a[12],
